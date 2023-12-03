@@ -7,12 +7,12 @@ a estrutura e funcionalidade do projeto de Blog em Ruby on Rails.
 O objetivo do projeto é criar uma plataforma básica de blog utilizando o 
 framework Ruby on Rails.
 
+
 ## Features
 
 ### Models
 
-O projeto utiliza vários modelos para gerenciar os dados do blog. Os principais 
-modelos incluem:
+O projeto utiliza vários models para gerenciar os dados do blog. Os principais incluem:
 
 - **Post**: Representa uma postagem de blog com atributos como título, conteúdo,
  autor e timestamps.
@@ -21,8 +21,8 @@ modelos incluem:
 
 ### Controllers
 
-Os controladores lidam com a lógica entre modelos e visões. Os principais 
-controladores neste projeto incluem:
+Os controllers lidam com a lógica entre modelos e visões. Os principais 
+neste projeto incluem:
 
 - **PostsController**: Gerencia operações CRUD para postagens de blog.
 - **UsersController**: Lida com autenticação e gerenciamento de usuários.
@@ -31,17 +31,18 @@ controladores neste projeto incluem:
 
 ### Views
 
-As visões são responsáveis por apresentar dados aos usuários. O projeto inclui várias 
-visões para exibir:
+As views são responsáveis por apresentar dados aos usuários. O projeto inclui várias 
+views para exibir:
 
 - Postagens de blog (índice, exibição, edição, exclusão)
 - Autenticação de usuário (login, cadastro, logout)
 - Seção de comentários para cada postagem de blog
 
+
 ## Usage
 
-Uma vez configurado, acesse a plataforma do blog através de um navegador da web 
-em `http://localhost:3000`. Os usuários podem:
+Uma vez configurado, acesse a plataforma do blog através de um browser em `http://localhost:3000`. 
+Os usuários podem:
 
 - Visualizar todas as postagens do blog.
 - Ler postagens de blog individuais.
